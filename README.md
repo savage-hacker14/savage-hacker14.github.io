@@ -1,1 +1,2 @@
-This is the source code to Wenli Xiao's public academic website: [https://wenlixiao-cs.github.io](https://wenlixiao-cs.github.io/). Feel free to clone this code for your own personal use.
+This is the source code to Jacob Krucinski's personal website: [https://savage-hacker14.github.io](https://savage-hacker14.github.io). 
+It was forked from [Wenli Xiao](https://github.com/WENLIXIAO-CS/wenlixiao-cs.github.io)
