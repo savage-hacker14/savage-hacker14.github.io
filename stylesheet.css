@@ -201,3 +201,62 @@ body.dark-mode {
 .dark-mode .slider:before {
   background-color: #333;
 }
+
+/* Fullscreen viewer - CLEAN UP later*/
+#fullscreen-container-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#fullscreen-container-2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#fullscreen-container-1:target {
+  display: flex;
+  opacity: 0.9;
+  pointer-events: auto;
+}
+
+#fullscreen-container-2:target {
+  display: flex;
+  opacity: 0.9;
+  pointer-events: auto;
+}
+
+#fullscreen-image-1 {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+#fullscreen-image-1 {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+/* img:hover {
+  -webkit-transform: scale(3, 3);
+} */
