@@ -2,7 +2,7 @@ import type { ProfileData } from "@/lib/types";
 
 export const profile: ProfileData = {
   name: "Jacob Krucinski",
-  affiliation: "MS in Artificial Intelligence @ Northeastern",
+  affiliation: "Research Engineer II @ RTX Research Center",
   specialization: "ML & Computer Vision for Physical Systems",
   about: [
     "I graduated with a Master's in Artificial Intelligence in April 2026 from Northeastern University, after earning a B.S. in Computer Science and Engineering at the University of Connecticut. I'm passionate about machine learning and computer vision applied to physical systems, from autonomous vehicles to surgical robotics.",
@@ -38,7 +38,7 @@ export const profile: ProfileData = {
     },
     {
       label: "Photography",
-      href: "https://500px.com/p/jacob1576?view=photos",
+      href: "https://shotbyjok.com",
       icon: "photography",
     },
   ],

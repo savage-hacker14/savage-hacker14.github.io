@@ -24,6 +24,7 @@ export const skills: SkillGroup[] = [
       "Simulink / Stateflow",
       "Embedded Coder",
       "ROS 1",
+      "ROS 2",
       "Git",
       "Docker",
       "REST APIs",

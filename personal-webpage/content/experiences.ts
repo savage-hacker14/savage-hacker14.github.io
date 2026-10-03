@@ -2,6 +2,19 @@ import type { Experience } from "@/lib/types";
 
 export const experiences: Experience[] = [
   {
+    company: "Raytheon Technologies Research Center (RTRC)",
+    role: "Research Engineer II, Autonomous Collaborative Systems",
+    location: "East Hartford, CT",
+    start: "Aug 2026",
+    end: "Present",
+    logo: { src: "/images/rtx_logo.jpg", alt: "Raytheon Technologies RTRC logo" },
+    bullets: [
+      "Developing AI/ML computer vision and autonomy algorithms for multi-domain, multi-asset collaborative autonomy under tight safety and real-time constraints",
+      "Supporting applications spanning engine inspection and drone path planning",
+    ],
+    url: "https://www.rtx.com/what-we-do/rtx-technology-research-center",
+  },
+  {
     company: "Travelers Indemnity Co.",
     role: "Engineering Development Program (EDP) Intern",
     location: "Hartford, CT",
